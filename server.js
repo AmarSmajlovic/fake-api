@@ -1,14 +1,14 @@
-const jsonServer = require('json-server')
+const jsonServer = require('json-server');
 const auth = require('json-server-auth')
-const middlewares = jsonServer.defaults()
+const server = jsonServer.create();
+const router = jsonServer.router('db.json');
+const middlewares = jsonServer.defaults();
+const port = process.env.PORT || 5000;
 
-const app = jsonServer.create()
-const router = jsonServer.router('db.json')
+server.db = router.db;
 
+server.use(auth);
+server.use(middlewares);
+server.use(router);
 
-app.db = router.db
-
-app.use(middlewares)
-app.use(auth)
-app.use(router)
-app.listen(5000)
+server.listen(port);
