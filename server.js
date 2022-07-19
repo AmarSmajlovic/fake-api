@@ -7,8 +7,8 @@ const port = process.env.PORT || 5000;
 
 server.db = router.db;
 
-server.use(auth);
 server.use(middlewares);
+server.use(auth);
 server.use(router);
 
 server.listen(port);
