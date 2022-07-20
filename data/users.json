@@ -6,28 +6,5 @@
       "last_name": "Smajlovic",
       "profileImageUrl": "https://thumbs.dreamstime.com/b/default-avatar-profile-vector-user-profile-default-avatar-profile-vector-user-profile-profile-179376714.jpg",
       "id": 1
-    },
-    {
-      "email": "arman@gmail.com",
-      "password": "$2a$10$6N4zn7CtrdM0V2bYu/zgXOF6sb51LEviJBhXezs2TU.DUlN8lyv9y",
-      "first_name": "Arman",
-      "last_name": "Smajlovic",
-      "profileImageUrl": "https://thumbs.dreamstime.com/b/default-avatar-profile-vector-user-profile-default-avatar-profile-vector-user-profile-profile-179376714.jpg",
-      "id": 2
-    },
-    {
-      "email": "amar2@gmail.com",
-      "password": "$2a$10$0/Dxgy0MktfAI7IvH6Q/yu08NIbbSKvvJL3NTR.hYKFGA/CEYaQPy",
-      "first_name": "Amar",
-      "last_name": "Smajlovic",
-      "id": 3
-    },
-    {
-      "email": "amar22@gmail.com",
-      "password": "$2a$10$YEbJXmcDeA5PTfoHd4cDt.91L7/W9dae8YCjEmLCVNOD6rKDHvajO",
-      "first_name": "ads",
-      "last_name": "asd",
-      "profileImageUrl": "https://thumbs.dreamstime.com/b/default-avatar-profile-vector-user-profile-default-avatar-profile-vector-user-profile-profile-179376714.jpg",
-      "id": 4
     }
 ]
